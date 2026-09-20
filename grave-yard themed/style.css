@@ -4,4 +4,32 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    border: 100px;
+    background-color: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    padding-top: 20px;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.sidebar a{
+    display: block;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.sidebar a:hover{
+    background-color: rgb(255, 255, 255, 0.2);
 }
